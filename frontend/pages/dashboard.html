@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | EduPro</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="../index.html">Edu<span>Pro</span></a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="instructors.html">Instructors</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="dropdown">
+          <button class="btn btn-outline" data-dropdown-toggle>Alex Morgan ▾</button>
+          <div class="dropdown-menu" data-dropdown-menu>
+            <a href="dashboard.html">Profile</a>
+            <a href="dashboard.html">Settings</a>
+            <a href="auth.html">Sign out</a>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="courses.html">Explore more</a>
+      </div>
+      <button class="menu-toggle" aria-label="Open mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="instructors.html">Instructors</a>
+      <a href="contact.html">Contact</a>
+      <a href="auth.html">Login</a>
+    </div>
+  </header>
+
+  <!-- Dashboard -->
+  <section class="section">
+    <div class="container dashboard-layout">
+      <aside class="sidebar">
+        <h3>My Learning</h3>
+        <a class="active" href="dashboard.html">Overview</a>
+        <a href="dashboard.html">My courses</a>
+        <a href="dashboard.html">Mentor sessions</a>
+        <a href="dashboard.html">Certificates</a>
+        <a href="dashboard.html">Settings</a>
+      </aside>
+      <div>
+        <div class="section-title">
+          <div>
+            <h2>Welcome back, Alex</h2>
+            <p>Your current learning progress and upcoming sessions.</p>
+          </div>
+          <a class="btn btn-outline" href="courses.html">Add new course</a>
+        </div>
+        <div class="dashboard-cards">
+          <div class="feature-card">
+            <h4>Full-stack Engineering Sprint</h4>
+            <p>Progress: 45% · Next session: Tuesday 6 PM</p>
+          </div>
+          <div class="feature-card">
+            <h4>Business Analytics Lab</h4>
+            <p>Progress: 70% · Mentor review due Friday</p>
+          </div>
+          <div class="feature-card">
+            <h4>Career coaching</h4>
+            <p>Resume review booked for Oct 2, 2 PM</p>
+          </div>
+        </div>
+        <div class="section" style="padding: 32px 0 0;">
+          <div class="form-card">
+            <h3>Upcoming milestones</h3>
+            <ul style="margin-top: 16px; display: grid; gap: 12px;">
+              <li>• Submit capstone proposal (Oct 5)</li>
+              <li>• Attend group mentorship (Oct 7)</li>
+              <li>• Mock interview session (Oct 12)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="color: var(--white);">Edu<span>Pro</span></div>
+        <p>Professional learning experiences for ambitious teams.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="auth.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Help Center</a></li>
+          <li><a href="contact.html">Terms</a></li>
+          <li><a href="contact.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2024 EduPro Learning. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

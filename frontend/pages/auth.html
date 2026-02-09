@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login & Register | EduPro</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="../index.html">Edu<span>Pro</span></a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="instructors.html">Instructors</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="auth.html">Login</a>
+        <a class="btn btn-primary" href="auth.html">Get Started</a>
+      </div>
+      <button class="menu-toggle" aria-label="Open mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="instructors.html">Instructors</a>
+      <a href="contact.html">Contact</a>
+      <a href="auth.html">Login</a>
+    </div>
+  </header>
+
+  <!-- Auth Forms -->
+  <section class="section">
+    <div class="container auth-layout">
+      <div>
+        <h1>Welcome back</h1>
+        <p>Access your courses, mentors, and learning plan from one dashboard.</p>
+        <div class="form-card" style="margin-top: 24px;">
+          <h3>Login</h3>
+          <form class="form-grid">
+            <label class="form-control">Email address
+              <input type="email" placeholder="you@email.com" required />
+            </label>
+            <label class="form-control">Password
+              <input type="password" placeholder="Enter password" required />
+            </label>
+            <button class="btn btn-primary" type="submit">Sign in</button>
+            <small>Forgot your password? <a href="contact.html">Reset here</a></small>
+          </form>
+        </div>
+      </div>
+      <div class="form-card">
+        <h3>Create an account</h3>
+        <form class="form-grid">
+          <label class="form-control">Full name
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label class="form-control">Work email
+            <input type="email" placeholder="name@company.com" required />
+          </label>
+          <label class="form-control">Role of interest
+            <select>
+              <option>Product Design</option>
+              <option>Data Analytics</option>
+              <option>Software Engineering</option>
+              <option>Marketing</option>
+            </select>
+          </label>
+          <label class="form-control">Password
+            <input type="password" placeholder="Create password" required />
+          </label>
+          <button class="btn btn-primary" type="submit">Create account</button>
+          <small>By signing up you agree to our terms and privacy policy.</small>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="color: var(--white);">Edu<span>Pro</span></div>
+        <p>Professional learning experiences for ambitious teams.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="auth.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Help Center</a></li>
+          <li><a href="contact.html">Terms</a></li>
+          <li><a href="contact.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2024 EduPro Learning. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

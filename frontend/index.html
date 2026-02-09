@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduPro | Professional Learning Platform</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">Edu<span>Pro</span></a>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/courses.html">Courses</a>
+        <a href="pages/instructors.html">Instructors</a>
+        <a href="pages/contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="pages/auth.html">Login</a>
+        <a class="btn btn-primary" href="pages/auth.html">Get Started</a>
+      </div>
+      <button class="menu-toggle" aria-label="Open mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/courses.html">Courses</a>
+      <a href="pages/instructors.html">Instructors</a>
+      <a href="pages/contact.html">Contact</a>
+      <a href="pages/auth.html">Login</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge">Trusted by 120K+ learners</span>
+        <h1>Level up with expert-led courses built for your career.</h1>
+        <p>
+          Access curated learning paths, live mentorship, and real-world projects
+          designed by industry leaders. Learn faster, launch sooner.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="pages/courses.html">Explore Courses</a>
+          <a class="btn btn-outline" href="pages/contact.html">Talk to Advisor</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Students collaborating" />
+        <h4>Next cohort starts in 2 weeks</h4>
+        <p>Join a guided cohort, get feedback on every assignment, and connect with peers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Why professionals choose EduPro</h2>
+          <p>We combine flexible learning with measurable outcomes for every learner.</p>
+        </div>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h4>Career-ready programs</h4>
+          <p>Aligned to in-demand roles with clear competency goals.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Expert mentors</h4>
+          <p>Weekly live sessions, private feedback, and portfolio reviews.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Flexible schedules</h4>
+          <p>Structured roadmaps that fit working professionals.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Credentialed certificates</h4>
+          <p>Shareable certificates recognized by hiring teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Courses -->
+  <section class="section" style="background: var(--brand-100);">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Popular courses this month</h2>
+          <p>Short, intensive courses created with hiring managers and industry partners.</p>
+        </div>
+        <a class="btn btn-outline" href="pages/courses.html">View all</a>
+      </div>
+      <div class="course-grid">
+        <article class="course-card">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Product design" />
+          <div class="course-card-body">
+            <span class="badge">Design</span>
+            <h3>Product Design Leadership</h3>
+            <p>Design systems, user research, and product strategy with real-world briefs.</p>
+            <div class="course-meta">
+              <span>6 weeks · 3 projects</span>
+              <span class="course-price">$399</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="pages/course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Product Design Leadership" data-body="Preview the curriculum and meet your mentors.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Data analytics" />
+          <div class="course-card-body">
+            <span class="badge">Data</span>
+            <h3>Data Analytics Accelerator</h3>
+            <p>Master SQL, Python dashboards, and stakeholder-ready storytelling.</p>
+            <div class="course-meta">
+              <span>8 weeks · 4 projects</span>
+              <span class="course-price">$449</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="pages/course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Data Analytics Accelerator" data-body="Practice with real datasets and coaching sessions.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" alt="Software engineering" />
+          <div class="course-card-body">
+            <span class="badge">Engineering</span>
+            <h3>Full-stack Engineering Sprint</h3>
+            <p>Build deployable web apps with team-based capstone projects.</p>
+            <div class="course-meta">
+              <span>10 weeks · 5 projects</span>
+              <span class="course-price">$549</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="pages/course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Full-stack Engineering Sprint" data-body="See the stack, schedule, and mentor line-up.">Preview</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <h3>92%</h3>
+        <p>Completion rate across our cohort programs.</p>
+      </div>
+      <div class="stat-card">
+        <h3>350+</h3>
+        <p>Hiring partners and mentor advisors.</p>
+      </div>
+      <div class="stat-card">
+        <h3>4.9/5</h3>
+        <p>Average learner satisfaction rating.</p>
+      </div>
+      <div class="stat-card">
+        <h3>120K</h3>
+        <p>Professionals upskilled worldwide.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instructors -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Meet our instructors</h2>
+          <p>Industry leaders who coach, mentor, and share their best practices.</p>
+        </div>
+        <a class="btn btn-outline" href="pages/instructors.html">See all</a>
+      </div>
+      <div class="instructor-grid">
+        <article class="instructor-card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80" alt="Instructor" />
+          <div class="instructor-card-body">
+            <h3>Renee Carter</h3>
+            <p>Head of Product Design · 12 yrs experience</p>
+          </div>
+        </article>
+        <article class="instructor-card">
+          <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80" alt="Instructor" />
+          <div class="instructor-card-body">
+            <h3>Marco Ruiz</h3>
+            <p>Data Science Lead · 10 yrs experience</p>
+          </div>
+        </article>
+        <article class="instructor-card">
+          <img src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?auto=format&fit=crop&w=600&q=80" alt="Instructor" />
+          <div class="instructor-card-body">
+            <h3>Alina Sarkis</h3>
+            <p>Engineering Manager · 8 yrs experience</p>
+          </div>
+        </article>
+        <article class="instructor-card">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80" alt="Instructor" />
+          <div class="instructor-card-body">
+            <h3>Kevin Zhao</h3>
+            <p>Growth Marketing Director · 9 yrs experience</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" style="background: var(--brand-100);">
+    <div class="container hero-grid">
+      <div>
+        <h2>Ready to start learning?</h2>
+        <p>Join a cohort, get mentorship, and track progress in your personal dashboard.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="pages/auth.html">Create an account</a>
+        <a class="btn btn-outline" href="pages/dashboard.html">View dashboard</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="color: var(--white);">Edu<span>Pro</span></div>
+        <p>Professional learning experiences for ambitious teams.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="pages/courses.html">Courses</a></li>
+          <li><a href="pages/instructors.html">Instructors</a></li>
+          <li><a href="pages/dashboard.html">Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+          <li><a href="pages/auth.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="pages/contact.html">Help Center</a></li>
+          <li><a href="pages/contact.html">Terms</a></li>
+          <li><a href="pages/contact.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2024 EduPro Learning. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h3 data-modal-title>Course preview</h3>
+        <button class="btn btn-outline" data-modal-close>Close</button>
+      </div>
+      <p data-modal-body>Preview details.</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses | EduPro</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container navbar">
+      <a class="logo" href="../index.html">Edu<span>Pro</span></a>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="courses.html">Courses</a>
+        <a href="instructors.html">Instructors</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="auth.html">Login</a>
+        <a class="btn btn-primary" href="auth.html">Get Started</a>
+      </div>
+      <button class="menu-toggle" aria-label="Open mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="instructors.html">Instructors</a>
+      <a href="contact.html">Contact</a>
+      <a href="auth.html">Login</a>
+    </div>
+  </header>
+
+  <!-- Courses Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge">Course Catalog</span>
+        <h1>Find the right program for your next career move.</h1>
+        <p>Search by role, skill, or industry to discover learning paths built for impact.</p>
+      </div>
+      <div class="hero-card">
+        <h4>Search courses</h4>
+        <p>Use keywords like “design”, “analytics”, or “engineering”.</p>
+        <div style="margin-top: 16px;">
+          <label class="form-control">Search
+            <input type="text" placeholder="Search courses" data-course-search />
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Listing -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>All courses</h2>
+          <p>Programs range from 4 to 12 weeks, with mentor feedback and capstone projects.</p>
+        </div>
+      </div>
+      <div class="course-grid">
+        <article class="course-card" data-course-card data-tags="design leadership ux">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Course" />
+          <div class="course-card-body">
+            <span class="badge">Design</span>
+            <h3>UX Strategy & Research</h3>
+            <p>Master user research planning, synthesis, and stakeholder storytelling.</p>
+            <div class="course-meta">
+              <span>6 weeks · Beginner</span>
+              <span class="course-price">$299</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="UX Strategy & Research" data-body="Deep-dive into research frameworks and reporting.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card" data-course-card data-tags="data analytics python sql">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Course" />
+          <div class="course-card-body">
+            <span class="badge">Data</span>
+            <h3>Business Analytics Lab</h3>
+            <p>Build dashboards, analyze metrics, and present decisions with confidence.</p>
+            <div class="course-meta">
+              <span>8 weeks · Intermediate</span>
+              <span class="course-price">$420</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Business Analytics Lab" data-body="Work with live datasets and capstone reviews.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card" data-course-card data-tags="engineering fullstack javascript">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Course" />
+          <div class="course-card-body">
+            <span class="badge">Engineering</span>
+            <h3>Modern Web Engineering</h3>
+            <p>Build full-stack applications with testing and deployment skills.</p>
+            <div class="course-meta">
+              <span>10 weeks · Advanced</span>
+              <span class="course-price">$520</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Modern Web Engineering" data-body="Collaborate on sprints with mentor feedback.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card" data-course-card data-tags="marketing growth strategy">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Course" />
+          <div class="course-card-body">
+            <span class="badge">Marketing</span>
+            <h3>Growth Marketing Blueprint</h3>
+            <p>Design campaigns, optimize funnels, and scale customer acquisition.</p>
+            <div class="course-meta">
+              <span>5 weeks · Intermediate</span>
+              <span class="course-price">$310</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Growth Marketing Blueprint" data-body="Learn paid, organic, and lifecycle strategies.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card" data-course-card data-tags="management leadership people">
+          <img src="https://images.unsplash.com/photo-1551836022-4c4c79ecde6d?auto=format&fit=crop&w=800&q=80" alt="Course" />
+          <div class="course-card-body">
+            <span class="badge">Leadership</span>
+            <h3>People Management Essentials</h3>
+            <p>Coach teams, deliver feedback, and build high-performing cultures.</p>
+            <div class="course-meta">
+              <span>4 weeks · Beginner</span>
+              <span class="course-price">$240</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="People Management Essentials" data-body="Practical frameworks for leading teams.">Preview</button>
+            </div>
+          </div>
+        </article>
+        <article class="course-card" data-course-card data-tags="product strategy innovation">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Course" />
+          <div class="course-card-body">
+            <span class="badge">Product</span>
+            <h3>Product Strategy & Roadmapping</h3>
+            <p>Prioritize initiatives, align stakeholders, and deliver roadmap impact.</p>
+            <div class="course-meta">
+              <span>6 weeks · Advanced</span>
+              <span class="course-price">$480</span>
+            </div>
+            <div class="course-actions">
+              <a class="btn btn-primary" href="course-detail.html">View details</a>
+              <button class="btn btn-outline" data-modal-trigger data-title="Product Strategy & Roadmapping" data-body="Practice prioritization and metrics planning.">Preview</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal-overlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <h3 data-modal-title>Course preview</h3>
+        <button class="btn btn-outline" data-modal-close>Close</button>
+      </div>
+      <p data-modal-body>Preview details.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="color: var(--white);">Edu<span>Pro</span></div>
+        <p>Professional learning experiences for ambitious teams.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="auth.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Help Center</a></li>
+          <li><a href="contact.html">Terms</a></li>
+          <li><a href="contact.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © 2024 EduPro Learning. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
